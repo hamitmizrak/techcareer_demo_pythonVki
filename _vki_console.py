@@ -39,11 +39,11 @@ def kullanidan_deger_al():
     while True:
         try:
             print("\nLütfen bilgileri eksiksiz griniz:")
-            kilo= float(input("Kilonuz (Kg)"))
-            boy= float(input("Boyunuz (metre) örnek:1.75"))
+            kilo= float(input("Kilonuz (Kg): "))
+            boy= float(input("Boyunuz (metre): örnek:1.75 "))
 
             if(kilo<=0 or boy <=0):
-                print("🚦Dikkat: Kilo ve boy sıfır olamaz. Lütfen Tekrar giriniz")
+                print("🚦Dikkat: Kilo ve boy sıfır olamaz. Lütfen Tekrar giriniz. ")
                 continue
 
             return kilo,boy
